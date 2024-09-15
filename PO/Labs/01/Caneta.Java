@@ -8,6 +8,10 @@
  * 
  *  Acrescente agora uma nova funcionalidade que permite recarregar a caneta com tinta de uma determinada cor.
  *  O recarregamento ocorre com a funcionalidade descrita anteriormente se a cor da tinta a colocar for igual à cor da caneta, devolvendo neste caso a quantidade de tinta não utilizada.
+ * 
+ * Acrescente um novo método que permite verificar se duas canetas são iguais ou não de acordo com a seguinte semântica: duas canetas são iguais se tiverem a mesma marca, cor e capacidade.
+ * 
+ * 
  */
 
  public class Caneta {
@@ -47,6 +51,14 @@
         return -1;
     }
 }
+
+public boolean iguais(Caneta c) {
+  if (c == null) {
+      return false; 
+  }
+  return _cor.equals(c.cor()) && _marca.equals(c.marca()) && _capacidade == c.capacidade();
+}
+
 
   public int capacidade() {
       return _capacidade;
