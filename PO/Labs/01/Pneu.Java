@@ -9,6 +9,24 @@
  * Primeiro modele o este domínio e depois concretize-o.Compare a sua solução com a solução proposta pelo corpo docente: Pneu.java
 */
 
+/*
++-------------------------------------------+
+|Pneu                                       |
++-------------------------------------------+
+| pressaoAr:int                             |
+| pressaoArRecomendada:int                  |
+| furado:boolean                            |
++-------------------------------------------+
+| Pneu(pressao:int, recomendada:int)        |
+| alterarPressao(novaPressao:int):void      |
+| obtemPressaoAr(): int                     |
+| obtemPressaoArRecomendada(): int          |
+| estaVazio(): boolean                      |
+| estaFurado(): boolean                     |
++-------------------------------------------+
+*/
+
+
 public class Pneu {
 
           private int _pressaoDeAr;
