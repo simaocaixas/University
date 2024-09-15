@@ -11,7 +11,7 @@
 
 /*
 +-------------------------------------------+
-|Pneu                                       |
+|Pneu                                       |  < -- UML DA RESOLUÇÃO DO PROFESSOR 
 +-------------------------------------------+
 | pressaoAr:int                             |
 | pressaoArRecomendada:int                  |
