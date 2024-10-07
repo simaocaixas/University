@@ -33,7 +33,7 @@ public class CloneErrorExeption extends Exeption {
 public cloneForm(int idOriginal, int idCopia) throws CloneErrorExeption {
 	
 	try {
-		Form novaForma = clone(getForm(int idOriginal));
+		Form novaForma = clone(getForm(idOriginal));
 		novaForma.setId(idCopia)
 	} catch (FormDoesntExistsExeption) {
 		throw new CloneErrorExeption("A forma não existe");
